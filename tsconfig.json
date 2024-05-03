@@ -1,0 +1,45 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "outDir": "build",
+        "esModuleInterop": true,
+        "allowJs": true,
+        "allowSyntheticDefaultImports": true,
+        "alwaysStrict": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "jsx": "react-jsx",
+        "lib": [
+            "DOM",
+            "ESNext"
+        ],
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+        "paths": {},
+        "preserveConstEnums": false,
+        "removeComments": false,
+        "skipLibCheck": true,
+        "sourceMap": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "resolveJsonModule": true,
+        "strictPropertyInitialization": false,
+        "target": "ES2020",
+        "typeRoots": [
+            "./node_modules/@types"
+        ]
+    },
+    "include": [
+        "src",
+        "test",
+        "mockdata"
+    ],
+    "exclude": [
+        "*.js",
+        "**/*.js"
+    ]
+}
